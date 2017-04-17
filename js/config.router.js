@@ -402,6 +402,21 @@ angular.module('app')
                   url: '/search',
                   templateUrl: 'tpl/page_search.html'
               })
+              .state('app.statistics',{
+                  url: '/statistics',
+                  templateUrl: 'tpl/ui_chart.html',
+                  resolve: {
+                      deps: ['uiLoad',
+                          function( uiLoad){
+                              return uiLoad.load('js/controllers/chart.js');
+                           }
+                      ]
+                  }
+              })
+              .state('app.profile', {
+                  url: '/profile',
+                  templateUrl: 'tpl/page_profile.html'
+              })
               .state('layout', {
                   abstract: true,
                   url: '/layout',

@@ -19,7 +19,7 @@
             "LIBRARY" : "知识库",
             "NOTE" : "备忘录",
             "SEARCH": "搜索",
-            "STATISTIC" : "统计",
+            "STATISTICS" : "统计",
             "PROFILE": "个人资料",
             "DASHBOARD" : "Dashboard",
             "CALENDAR" : "日历",
