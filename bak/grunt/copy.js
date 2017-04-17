@@ -73,7 +73,7 @@ module.exports = {
     dist: {
         files: [
             {expand: true, dest: 'dist/', src:'**', cwd:'src/'},
-            {dest: 'dist/index.html', src:'src/index.min.html'}
+            {dest: 'dist/index2.html', src:'src/index.min.html'}
         ]
     }
 };

@@ -14,6 +14,6 @@ angular.module('app', [
     'ui.jq',
     'ui.validate',
     'oc.lazyLoad',
-    'pascalprecht.translate'
-
+    'pascalprecht.translate',
+    'FileManagerApp'
 ]);

@@ -7,7 +7,7 @@
           <i class="glyphicon glyphicon-align-justify"></i>
         </button>
         <!-- brand here have a brand error, add new brand class-->
-        <a href="#/" class="navbar-brand text-lt brand">
+        <a href="#/app/library" class="navbar-brand text-lt brand">
           <i class="fa fa-btc"></i>
           <img src="img/logo.png" alt="." class="hide">
           <span class="hidden-folded m-l-xs">{{app.name}}</span>
@@ -161,16 +161,16 @@
         <!-- / link and dropdown -->
 
         <!-- search form -->
-        <form class="navbar-form navbar-form-sm navbar-left shift" ui-shift="prependTo" target=".navbar-collapse" role="search" ng-controller="TypeaheadDemoCtrl">
-          <div class="form-group">
-            <div class="input-group">
-              <input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control input-sm bg-light no-border rounded padder" placeholder="Search projects...">
-              <span class="input-group-btn">
-                <button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>
-              </span>
-            </div>
-          </div>
-        </form>
+        <!--<form class="navbar-form navbar-form-sm navbar-left shift" ui-shift="prependTo" target=".navbar-collapse" role="search" ng-controller="TypeaheadDemoCtrl">-->
+          <!--<div class="form-group">-->
+            <!--<div class="input-group">-->
+              <!--<input type="text" ng-model="selected" typeahead="state for state in states | filter:$viewValue | limitTo:8" class="form-control input-sm bg-light no-border rounded padder" placeholder="Search projects...">-->
+              <!--<span class="input-group-btn">-->
+                <!--<button type="submit" class="btn btn-sm bg-light rounded"><i class="fa fa-search"></i></button>-->
+              <!--</span>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</form>-->
         <!-- / search form -->
 
         <!-- nabar right -->

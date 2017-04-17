@@ -15,7 +15,7 @@
 },
     "aside" : {
     "nav" : {
-        "HEADER" : "导航",
+        "HEADER" : "Navigation",
             "LIBRARY" : "知识库",
             "NOTE" : "备忘录",
             "SEARCH": "搜索",
@@ -71,7 +71,7 @@
         }
     },
     "MILESTONE" : "里程碑",
-        "RELEASE" : "示范"
+        "RELEASE" : "Release"
 }
 
 }
